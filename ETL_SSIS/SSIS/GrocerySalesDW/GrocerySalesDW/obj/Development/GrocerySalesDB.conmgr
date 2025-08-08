@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.GrocerySales"
+  DTS:DTSID="{31BCC664-5E87-46CD-A2D7-B862B3A1FF5B}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;User ID=;Initial Catalog=GrocerySales;Provider=MSOLEDBSQL.1;Persist Security Info=False;Integrated Security=SSPI;Initial File Name=;Trust Server Certificate=True;Server SPN=;Authentication=;Access Token=;Application Name=SSIS-GrocerySalesDW-{31BCC664-5E87-46CD-A2D7-B862B3A1FF5B}localhost.GrocerySales;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
